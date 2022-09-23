@@ -23,7 +23,7 @@ public static class Program
                 cargarLista();
             if (opcion == "b")
                 borrarLista();
-        } while (opcion != "s");
+        } while (opcion != "s");//
 
     }
 }
