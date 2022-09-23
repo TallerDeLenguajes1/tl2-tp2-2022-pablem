@@ -8,7 +8,7 @@ public static class Program
     public static void Main()
     {
         Console.WriteLine("Hello world!");
-        Logger.Info("Goodbye cruel world");
+        Logger.Error("Goodbye cruel world");
         Logger.Debug("Goodbye cruel world");
     }
 }  
